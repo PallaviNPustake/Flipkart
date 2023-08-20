@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening browser and navingating to Flipkart application]]>
+    </line>
+    <line>
+      <![CDATA[Waiting to load page-1000]]>
+    </line>
+    <line>
+      <![CDATA[Closed login popup]]>
+    </line>
+    <line>
+      <![CDATA[Waiting to load page-1000]]>
+    </line>
+    <line>
+      <![CDATA[Entering product in search barIphone14 pro max]]>
+    </line>
+    <line>
+      <![CDATA[Clickinf on search icon]]>
+    </line>
+    <line>
+      <![CDATA[Waiting to load page-1000]]>
+    </line>
+    <line>
+      <![CDATA[Entering product in search barLaptop]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-11T19:57:45 IST" name="Default suite" finished-at="2023-07-11T19:58:01 IST" duration-ms="15102">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T19:57:45 IST" name="Default test" finished-at="2023-07-11T19:58:01 IST" duration-ms="15102">
+      <class name="test.ValidatingSearchField">
+        <test-method is-config="true" signature="launchingFlipkart()[pri:0, instance:test.ValidatingSearchField@470734c3]" started-at="2023-07-11T19:57:46 IST" name="launchingFlipkart" finished-at="2023-07-11T19:57:59 IST" duration-ms="13086" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser and navingating to Flipkart application]]>
+            </line>
+            <line>
+              <![CDATA[Waiting to load page-1000]]>
+            </line>
+            <line>
+              <![CDATA[Closed login popup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchingFlipkart -->
+        <test-method signature="validateSearchBar()[pri:0, instance:test.ValidatingSearchField@470734c3]" started-at="2023-07-11T19:57:59 IST" name="validateSearchBar" finished-at="2023-07-11T19:58:01 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting to load page-1000]]>
+            </line>
+            <line>
+              <![CDATA[Entering product in search barIphone14 pro max]]>
+            </line>
+            <line>
+              <![CDATA[Clickinf on search icon]]>
+            </line>
+            <line>
+              <![CDATA[Waiting to load page-1000]]>
+            </line>
+            <line>
+              <![CDATA[Entering product in search barLaptop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSearchBar -->
+      </class> <!-- test.ValidatingSearchField -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
